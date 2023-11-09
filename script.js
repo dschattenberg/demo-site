@@ -37,3 +37,8 @@ function submitForm(event) {
 
     alert('Form submitted!'); // For demonstration purposes, replace this with your own logic
 }
+function copyNumber() {
+    const sourceNumber = document.getElementById('numberQuery').value;
+    document.getElementById('CardNumber').value = sourceNumber;
+}
+
