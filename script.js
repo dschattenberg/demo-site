@@ -36,9 +36,13 @@ function submitForm(event) {
     // You can add additional logic here to handle the form submission, such as sending data to a server
 
     alert('Form submitted!'); // For demonstration purposes, replace this with your own logic
+
 }
-function copyNumber() {
-    const sourceNumber = document.getElementById('numberQuery').value;
-    document.getElementById('CardNumber').value = sourceNumber;
+    function copyNumberToCard() {
+    const numberField = document.getElementById('numberField');
+    const cardNumberField = document.getElementById('cardNumberField');
+
+    cardNumberField.value = numberField.value;
 }
+
 
