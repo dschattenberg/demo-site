@@ -43,7 +43,7 @@ function submitForm(event) {
     alert('Form submitted!'); // For demonstration purposes, replace this with your own logic
 
 }
-    function copyNumberToCard() {
+    function copyNumberToCard(event) {
     const numberField = document.getElementById('numberField');
     const cardNumberField = document.getElementById('cardNumberField');
 
