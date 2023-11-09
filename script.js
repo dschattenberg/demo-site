@@ -44,10 +44,10 @@ function submitForm(event) {
 
 }
     function copyNumberToCard(event) {
-    const numberField = document.getElementById('numberField');
+    const numberQuery = document.getElementById('numberQuery');
     const cardNumberField = document.getElementById('cardNumberField');
 
-    cardNumberField.value = numberField.value;
+    cardNumberField.value = numberQuery.value;
 }
 
 
