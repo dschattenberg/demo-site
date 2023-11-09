@@ -26,6 +26,7 @@
     </div>
      <h1>Member enrolment form</h1>
         <form id="contactForm" onsubmit="submitForm(event)">
+            
                        <div class="form-group">
                 <label for="title">Title:</label>
                 <select id="title" name="title">
@@ -94,7 +95,10 @@
                 <label for="additionalInfo">Additional Address Information:</label>
                 <textarea id="additionalInfo" name="additionalInfo" rows="1"></textarea>
             </div>
-
+ <div class="form-group">
+                <label for="CardNumber">Card Number:</label>
+                <input type="number" id="CardNumber" name="CardNumber" readonly>
+            </div>
             <div class="form-group">
                 <label for="email">E-Mail Address:</label>
                 <input type="email" id="email" name="email" required>
