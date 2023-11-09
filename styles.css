@@ -7,7 +7,7 @@ body {
 
 .container {
     max-width: 600px;
-    margin: 50px auto;
+    margin:;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -36,7 +36,7 @@ input, textarea {
 }
 
 button {
-    background-color: #EB;
+    background-color: ##EB5496;
     color: #fff;
     padding: 10px;
     border: none;
