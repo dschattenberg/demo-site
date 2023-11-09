@@ -19,6 +19,13 @@ function searchNumbers(event) {
     displayResults(results);
 }
 
+    function copyNumberToCard(event) {
+    const numberQuery = document.getElementById('numberQuery');
+    const cardNumberField = document.getElementById('cardNumberField');
+
+    cardNumberField.value = numberQuery.value;
+}
+
 function displayResults(results) {
     const resultsContainer = document.getElementById('searchResults');
 
@@ -43,11 +50,6 @@ function submitForm(event) {
     alert('Form submitted!'); // For demonstration purposes, replace this with your own logic
 
 }
-    function copyNumberToCard(event) {
-    const numberQuery = document.getElementById('numberQuery');
-    const cardNumberField = document.getElementById('cardNumberField');
 
-    cardNumberField.value = numberQuery.value;
-}
 
 
