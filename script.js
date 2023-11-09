@@ -1,6 +1,11 @@
 const internalDatabase = [
-    { id: 1, number: 123, description: 'First number' },
-    { id: 2, number: 456, description: 'Second number' },
+    { id: 1, number: 123, description: 'anonymous card' },
+    { id: 2, number: 456, description: 'anonymous card' },
+     { id: 3, number: 999, description: 'anonymous card' },
+     { id: 4, number: 888, description: 'anonymous card' },
+     { id: 5, number: 666, description: 'anonymous card' },
+     { id: 6, number: 777, description: 'anonymous card' },
+     { id: 7, number: 444, description: 'anonymous card' },
     // Add more entries as needed
 ];
 
@@ -26,7 +31,7 @@ function displayResults(results) {
             resultsContainer.appendChild(resultElement);
         });
     } else {
-        resultsContainer.innerHTML = '<p>No results found.</p>';
+        resultsContainer.innerHTML = '<p>No Air Miles card found.</p>';
     }
 }
 
