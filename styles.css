@@ -23,7 +23,7 @@ h1 {
 }
 
 form {
-    display: flex;
+    display: auto;
     flex-direction: column;
 }
 
