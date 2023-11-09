@@ -9,13 +9,23 @@
 <body>
     <div class="container">
         <img src="https://www.airmiles.nl/assets/images/logo/logo_air-miles.png" alt="AirMileslogo" width="64" height="64">
-        <h1>Member enrolment form</h1>
-        <form id="contactForm" onsubmit="submitForm(event)">
+       
 
-                        <div class="form-group">
-                <label for="Cardnumber">cardnumber:</label>
-                <input type="text" id="cardnumber" name="cardnumber">
+ <div class="container">
+        <h1>Card Number Search Form</h1>
+        <form id="numberSearchForm" onsubmit="searchNumbers(event)">
+            <div class="form-group">
+                <label for="numberQuery">Search Number:</label>
+                <input type="text" id="numberQuery" name="numberQuery" required>
             </div>
+
+            <button type="submit">Search</button>
+        </form>
+
+        <div id="searchResults"></div>
+    </div>
+     <h1>Member enrolment form</h1>
+        <form id="contactForm" onsubmit="submitForm(event)">
                        <div class="form-group">
                 <label for="title">Title:</label>
                 <select id="title" name="title">
@@ -105,4 +115,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
