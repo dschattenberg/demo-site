@@ -1,8 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "72","72full",Arial,Helvetica,sans-serif;
+    color: #666666
+    font-size: 0.875rem;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    font-weight: normal;
 }
 
 .container {
