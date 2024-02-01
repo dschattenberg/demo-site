@@ -52,4 +52,8 @@ function handleSearch() {
             if (linkText.includes(searchTerm)) {
                 link.style.display = "block";
             } else {
-               
+                link.style.display = "none";
+            }
+        });
+    });
+}
