@@ -2,7 +2,10 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+}
+
+header, nav, main, footer {
+    margin: 20px;
 }
 
 header {
@@ -12,21 +15,10 @@ header {
     padding: 10px;
 }
 
-header input {
-    padding: 5px;
-    margin-left: 10px;
-}
-
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: #eee;
-}
-
-nav li {
-    display: inline-block;
-    margin: 5px;
 }
 
 nav a {
@@ -34,46 +26,24 @@ nav a {
     color: #333;
     padding: 5px 10px;
     display: inline-block;
+    border: 1px solid #ccc;
+    margin: 5px;
+    border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 main {
     max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section {
     margin-bottom: 20px;
 }
 
-section h2 {
-    color: #333;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    margin-bottom: 5px;
-}
-
 footer {
     margin-top: 20px;
     text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-}
-
-footer p {
-    margin: 0;
 }
