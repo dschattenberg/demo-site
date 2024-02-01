@@ -2,129 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Member enrolment form</title>
+    <title>Klantenservice Knowledge Base</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <img src="https://www.airmiles.nl/assets/images/logo/logo_air-miles.png" alt="AirMileslogo" width="64" height="64">
-       
+    <header>
+        <h1>Klantenservice Knowledge Base</h1>
+    </header>
 
- <div class="container">
-        <h1>Card Number Search Form</h1>
-        <form id="numberSearchForm" onsubmit="searchNumbers(event)">
-            <div class="form-group">
-                <label for="numberQuery">Number:</label>
-                <input type="text" id="numberQuery" name="numberQuery" required>
-            </div>
+    <nav>
+        <ul>
+            <li><a href="#products">Productinformatie</a></li>
+            <li><a href="#services">Klantenserviceprocedures</a></li>
+            <li><a href="#troubleshooting">Probleemoplossing</a></li>
+            <!-- Voeg meer categorieën toe -->
+        </ul>
+    </nav>
 
-            <button type="submit">Search</button>
-        </form>
+    <main>
+        <section id="products">
+            <h2>Productinformatie</h2>
+            <ul>
+                <li><a href="product-manual.html">Producthandleidingen</a></li>
+                <li><a href="product-specs.html">Productspecificaties</a></li>
+                <li><a href="faq.html">Veelgestelde vragen (FAQ)</a></li>
+            </ul>
+        </section>
 
-        <div id="searchResults"></div>
-     
-        <button type="button" onclick="copyNumberToCard()">Add Card</button>
-        </form>
-    </div>
-    <script src="script.js"></script>
-<body>
- 
-</body>
+        <section id="services">
+            <h2>Klantenserviceprocedures</h2>
+            <ul>
+                <li><a href="return-policy.html">Retourprocedure</a></li>
+                <li><a href="complaints-handling.html">Klachtenafhandeling</a></li>
+                <li><a href="warranty-policy.html">Garantiebeleid</a></li>
+            </ul>
+        </section>
 
-        
-     <h1>Member enrolment form</h1>
-        <form id="contactForm" onsubmit="submitForm(event)">
-            
-                       <div class="form-group">
-                <label for="title">Title:</label>
-                <select id="title" name="title">
-                    <option value="01">Meneer</option>
-                    <option value="02">Mevrouw</option>
-                    <option value="03">Neutraal</option>
-                    <option value="04">Onbekend</option>
-                </select>
-            </div>
-           
-                       <div class="form-group">
-                <label for="initials">Initials:</label>
-                <input type="text" id="initials" name="initials" required>
-            </div>
-            
-           <div class="form-group">
-                <label for="firstName">First Name:</label>
-                <input type="text" id="firstName" name="firstName" required>
-            </div>
+        <section id="troubleshooting">
+            <h2>Probleemoplossing</h2>
+            <ul>
+                <li><a href="common-issues.html">Veelvoorkomende problemen</a></li>
+                <li><a href="step-by-step-solutions.html">Stapsgewijze oplossingen</a></li>
+            </ul>
+        </section>
+        <!-- Voeg meer secties toe voor andere categorieën -->
+    </main>
 
-            <div class="form-group">
-                <label for="prefix">Prefix:</label>
-                <input type="text" id="prefix" name="prefix">
-            </div>
-
-
-            <div class="form-group">
-                <label for="lastName">Last Name:</label>
-                <input type="text" id="lastName" name="lastName" required>
-            </div>
-
-
-
-            <div class="form-group">
-                <label for="zipCode">Zip Code:</label>
-                <input type="text" id="zipCode" name="zipCode" required>
-            </div>
-
-            <div class="form-group">
-                <label for="houseNumber">House Number:</label>
-                <input type="text" id="houseNumber" name="houseNumber" required>
-            </div>
-
-            <div class="form-group">
-                <label for="country">Country:</label>
-                <input type="text" id="country" name="country" required>
-            </div>
-
-            <div class="form-group">
-                <label for="street">Street:</label>
-                <input type="text" id="street" name="street" required>
-            </div>
-
-            <div class="form-group">
-                <label for="city">City:</label>
-                <input type="text" id="city" name="city" required>
-            </div>
-
-            <div class="form-group">
-                <label for="cardNumberField">Card Number:</label>
-                <input type="text" id="cardNumberField" name="cardNumberField" readonly>
-            </div>
-            
-            <div class="form-group">
-                <label for="mobileNumber">Mobile Number:</label>
-                <input type="tel" id="mobileNumber" name="mobileNumber" required>
-            </div>
-
-            <div class="form-group">
-                <label for="additionalInfo">Additional Address Information:</label>
-                <textarea id="additionalInfo" name="additionalInfo" rows="1"></textarea>
-            </div>
-            <div class="form-group">
-                <label for="email">E-Mail Address:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-
-            <div class="form-group">
-                <label for="dob">Date of Birth:</label>
-                <input type="date" id="dob" name="dob" required>
-            </div>
-<div class="form-group">
-                <label for="subscribe">Subscribe to Mail:</label>
-                <input type="checkbox" id="subscribe" name="subscribe">
-            </div>
-            <button type="submit">Submit</button>
-        </form>
-    </div>
-
-    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Klantenservice Knowledge Base</p>
+    </footer>
 </body>
 </html>
