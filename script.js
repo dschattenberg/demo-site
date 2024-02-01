@@ -10,17 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("searchInput").addEventListener("input", handleSearch);
 });
 
-function loadContent(sectionId, contentUrl) {
-    const section = document.getElementById(sectionId);
-    const contentContainer = document.createElement("div");
 
-    fetch(contentUrl)
-        .then(response => response.text())
-        .then(content => {
-            contentContainer.innerHTML = content;
-            section.appendChild(contentContainer);
-        })
-        .catch(error => console.error("Fout bij het laden van inhoud:", error));
 }
 
 function addSectionClickListener(sectionId) {
